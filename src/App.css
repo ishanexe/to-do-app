@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; /* Soft light gray background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+  }
+  
+  .container {
+    width: 400px;
+    background: #fff; /* White card-like background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Input Section */
+  input[type="text"] {
+    width: 70%; /* Take most of the width */
+    padding: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded edges */
+    font-size: 16px;
+    margin-right: 10px; /* Space between input and button */
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #007bff; /* Blue outline on focus */
+  }
+  
+  /* Add Button */
+  .add-btn {
+    background-color: #007bff; /* Blue color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* List Items */
+  .list-item {
+    list-style: none; /* Remove bullet points */
+    background-color: #f8f9fa; /* Light gray item background */
+    padding: 10px;
+    margin: 10px 0; /* Space between items */
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* For separating the Input from the List */
+  hr {
+    border: 1px solid #eee; /* Soft separator */
+    margin: 20px 0;
+  }
+  
+
+
+ 
